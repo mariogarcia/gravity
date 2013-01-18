@@ -1,0 +1,11 @@
+
+project.ext{
+	groovyVersion = "1.8.6"
+	grailsVersion = "2.0.1"
+}
+
+allprojects{
+	group = "org.grails.plugins"
+	version = "1.0.0-SNAPSHOT"
+}
+

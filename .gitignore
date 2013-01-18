@@ -1,0 +1,5 @@
+.gradle
+.swp
+*.*.swp
+target
+build
