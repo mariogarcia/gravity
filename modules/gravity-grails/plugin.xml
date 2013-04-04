@@ -6,15 +6,21 @@
 </description>
   <documentation>http://grails.org/plugin/gravity</documentation>
   <type>GravityGrailsPlugin</type>
-  <resources />
+  <resources>
+    <resource>gravity.GravityController</resource>
+  </resources>
   <repositories>
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
     <repository name='grailsCentral' url='http://plugins.grails.org' />
     <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
     <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
     <repository name='grailsCore' url='http://svn.codehaus.org/grails/trunk/grails-plugins' />
-    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
   </repositories>
-  <dependencies />
+  <dependencies>
+    <runtime>
+      <dependency group='org.grails.plugins' name='gravity-core' version='1.0.0-SNAPSHOT' />
+    </runtime>
+  </dependencies>
   <plugins />
   <runtimePluginRequirements />
   <behavior />
